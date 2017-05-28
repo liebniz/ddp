@@ -20,6 +20,7 @@ fluidPage(
     
     # Show Word Cloud
     mainPanel(
+      textOutput("chapter"),
       plotOutput("plot")
     )
   )
